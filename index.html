@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Professional Resume Builder</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+    <h1>Professional Resume Builder</h1>
+    <div class="container">
+        <!-- Form Section -->
+        <div class="form-section">
+            <h2>Personal Information</h2>
+            <input type="text" id="name" placeholder="Full Name" required>
+            <input type="email" id="email" placeholder="Email" required>
+            <input type="tel" id="phone" placeholder="Phone Number" required>
+
+            <h2>Education</h2>
+            <input type="text" id="school" placeholder="School" required>
+            <input type="text" id="degree" placeholder="Degree" required>
+            <input type="text" id="graduationYear" placeholder="Graduation Year" required>
+
+            <h2>Experience</h2>
+            <textarea id="experience" placeholder="Your Experience" rows="5" required></textarea>
+
+            <h2>Skills</h2>
+            <textarea id="skills" placeholder="Your Skills" rows="3" required></textarea>
+
+            <button onclick="generatePreview()">Generate Preview</button>
+        </div>
+
+        <!-- Preview Section -->
+        <div class="preview-section">
+            <h2>Resume Preview</h2>
+            <div id="resumeContent"></div>
+            <button onclick="downloadResume()">Download Resume</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
