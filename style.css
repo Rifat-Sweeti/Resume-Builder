@@ -27,7 +27,7 @@ h1 {
 
 @font-face {
     font-family: curse;
-    src: url(../Fonts/static/Oswald-SemiBold.ttf);
+    src: url(./Fonts/static/Oswald-SemiBold.ttf);
 }
 
 /* Layout Container */
@@ -123,7 +123,7 @@ h1 {
 
 @font-face {
     font-family: dyna;
-    src: url(../Fonts/DynaPuff/DynaPuff-VariableFont_wdth\,wght.ttf);
+    src: url(./Fonts/DynaPuff/DynaPuff-VariableFont_wdth\,wght.ttf);
 }
 
 #resumeContent h3 {
